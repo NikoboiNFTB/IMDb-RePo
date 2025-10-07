@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         IMDb RePo: Simple and Fast Redirect Portal
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/NikoboiNFTB/IMDb-RePo
 // @version      1.6
 // @description  Adds buttons to IMDb for redirecting to 111movies.com using the IMDb ID dynamically, with season/episode inputs for TV.
 // @author       Nikoboi
