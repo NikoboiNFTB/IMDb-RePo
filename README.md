@@ -36,6 +36,16 @@
 
 3. Done!
 
+> **Heads-up for Chrome/Edge/Brave users:**  
+> After installing Tampermonkey, make sure it’s allowed to run userscripts:
+>
+> - Go to `chrome://extensions/` (or `edge://extensions/`)
+> - Click **“Details”** under Tampermonkey
+> - Enable **“Allow user scripts”** (you may need to toggle Developer Mode first)
+> - Refresh IMDb to ensure it kicks in  
+>
+> If you skip this, the script won’t work—even if it’s installed!
+
 ---
 
 ## 📦 How to Use
@@ -70,4 +80,3 @@ Iconography and button styling inspired by IMDb's native UI.
 ## 📜 License
 
 This project is released under the GPLv3 License. Feel free to fork, modify, or redistribute with attribution.
-
