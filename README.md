@@ -1,89 +1,92 @@
-# IMDb RePo: Simple and Fast Redirect Portal
+# 🎬 IMDb RePo: Simple & Fast Redirect Portal
 
-**IMDb RePo** is a lightweight, no-dependency userscript that adds buttons to IMDb movie and TV show pages. These buttons allow instant redirection (hence the name, RePo) to an external streaming service, making your browsing experience faster and smoother.
+**IMDb RePo** is a lightweight, dependency-free userscript that adds IMDb-style buttons to movie and TV pages for instant redirection to external streaming. Simple, fast, and smooth — Sailing the High Seas done right!
 
 ---
 
-## 🎯 Features
+## 🚀 Features
 
-- 🟡 **Native IMDb-style Buttons**  
-  Seamlessly integrates next to IMDb’s own buttons, preserving the aesthetic.
+- 🟡 **Native IMDb-Style Buttons**  
+  Blends seamlessly with IMDb’s own UI.
 
-- 🎬 **One-click Redirect to Streaming**  
-  - Movie button → `https://111movies.com/movie/{IMDb-ID}`
-  - TV button → `https://111movies.com/tv/{IMDb-ID}/S/E`  
-      - You can even specify **season** and **episode** before clicking! (you can also just hit enter)
+- 🎬 **One-Click Redirects**  
+  - Movies → `https://111movies.com/movie/{IMDb-ID}`  
+  - TV Shows → `https://111movies.com/tv/{IMDb-ID}/S/E`  
+    - You can even prefill **season** and **episode** before clicking (or just hit Enter).
 
-- ⚡ **Fast-Loading Buttons**  
-  No waiting for the full page to render—buttons appear almost instantly.
+- ⚡ **Instant Load**  
+  Buttons appear before the full page finishes loading.
 
-- 🧩 **Tiny & Dependency-Free**  
-  Script is self-contained, readable, and easily tweakable.
+- 🧩 **Tiny & Readable**  
+  Fully self-contained. No dependencies. Easy to tweak.
 
 ---
 
 ## 🛠 Installation
 
-1. Install a userscript manager (Firefox + Tampermonkey recommended):
-   - [Tampermonkey (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
-   - [Tampermonkey (Chromium)](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-   - (Violentmonkey and Greasemonkey allegedly work, but are not officially supported or endorsed by the IMDb RePo project.)
+1. **Install a Userscript Manager**  
+   Recommended: Firefox + Tampermonkey  
+   - [Tampermonkey (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)  
+   - [Tampermonkey (Chromium)](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)  
+   *(Violentmonkey and Greasemonkey may work, but aren’t officially supported.)*
 
-2. Install the script:
-   - Click the **Raw** button on [`IMDb RePo 2.1 - Simple and Fast Redirect Portal.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20RePo%202.1%20-%20Simple%20and%20Fast%20Redirect%20Portal.user.js)
-   - Your userscript manager will prompt you to install it.
-   - Alternatively, download the user.js and import it to your userscript injector.
+2. **Install the Script**  
+   - Click **Raw** on [`IMDb RePo 2.1 - Simple and Fast Redirect Portal.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20RePo%202.1%20-%20Simple%20and%20Fast%20Redirect%20Portal.user.js)  
+   - Your userscript manager should prompt for installation.  
+   - Or download the `.user.js` file manually and import it.
 
-3. Alternatively, install the Automatic Redirect Edition:
-   - Click the **Raw** button on [`IMDb RePo - Automatic Redirect Edition.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20RePo%20-%20Automatic%20Redirect%20Edition.user.js)
-   - Your userscript manager will prompt you to install it.
-   - Alternatively, download the user.js and import it to your userscript injector.
+3. **Alternatively; Automatic Redirect Edition**  
+   For automatic redirect to streaming site: [`IMDb RePo - Automatic Redirect Edition.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20RePo%20-%20Automatic%20Redirect%20Edition.user.js)
 
-3. Done!
+4. **Recommended Add-on**  
+   [`111Movies Tweaks 3.0.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20Tweaks%203.0.user.js)  
+   - Removes the persistent shadow overlay.  
+   - Hides the cursor (brute-force, but works).  
+     - Contributions for a more elegant solution are welcome.
 
-> **Heads-up for Chrome/Edge/Brave users:**  
-> After installing Tampermonkey, make sure it’s allowed to run userscripts:
->
-> - Go to `chrome://extensions/` (or `edge://extensions/` etc.)
-> - Click **“Details”** under Tampermonkey
-> - Enable **“Allow User Scripts”** (you may need to toggle Developer Mode first)
-> - Refresh IMDb to ensure it kicks in  
->
-> If you skip this, the script won’t work—even if it’s installed!
+5. **Done. Enjoy.**
 
----
-
-## 📦 How to Use
-
-1. **Go to any IMDb title page** (movie or show).
-2. You'll see a new button next to IMDb RATING, YOUR RATING and POPULARITY:
-   - **MOVIE** → Redirects you to 111movies.com/movie
-   - or
-   - **TV** → Redirects you to 111movies.com/tv
-3. For TV shows, optionally enter:
-   - **Season (`S`)**
-   - **Episode (`E`)**
-   - Defaults to `1/1` if left blank
-4. Click **Go** — Enjoy!
+> **Chrome / Edge / Brave Users:**  
+> Make sure Tampermonkey can actually *run* userscripts:  
+> - Go to `chrome://extensions/` (or equivalent)  
+> - Click **Details** under Tampermonkey  
+> - Enable **“Allow access to file URLs”** and **“Allow User Scripts”** (toggle Developer Mode if needed)  
+> - Refresh IMDb afterward
 
 ---
 
-## 🚧 Limitations
+## 💡 How to Use
 
-- This tool does not verify content availability on the target site (but it should be, hasn't failed me yet).
-- Only works on IMDb URLs in the `/title/ttXXXXXXX/` format (which is all of them).
-- Hardcoded to use `111movies.com` as the redirect base (but you're free to fork/commit to add choices).
+1. Open any **IMDb movie or show** page.  
+2. A new button appears next to *IMDb Rating*, *Your Rating*, and *Popularity*, either;  
+   - **MOVIE** → Redirects to 111movies.com/movie  
+   - **TV** → Redirects to 111movies.com/tv  
+3. For TV shows, optionally enter:  
+   - **Season (S)**  
+   - **Episode (E)**  
+   - Defaults to `1/1` if blank  
+4. Click **Go** and you’re there.
+
+---
+
+## ⚠️ Limitations
+
+- Doesn’t check if the content actually exists (though it usually does, new releases are usually available within a day or two).  
+- Redirect domain is hardcoded to `111movies.com` (feel free to fork and change it).
+- In theory, very slow internet could cause a **TV** page to load with a **MOVIE** button, since the script detects page type before IMDb fully loads.
+  - This has never been observed, but please report it if it happens.
+  - Any self-correcting solution would add overhead or reduce speed, so it’s not a fix priority until confirmed.
 
 ---
 
 ## 🤝 Credits
 
-- Created by Nikoboi
-- Script logic engineered with ChatGPT
-- Iconography and button styling inspired by IMDb's native UI.
+- Created by **Nikoboi**  
+- Script logic fine-tuned with **ChatGPT**  
+- Styling inspired by IMDb’s native interface  
 
 ---
 
 ## 📜 License
 
-This project is released under the GPLv3 License. Feel free to fork, modify, or redistribute with attribution.
+Released under the **GPLv3 License**
