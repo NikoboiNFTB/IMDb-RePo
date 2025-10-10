@@ -34,6 +34,11 @@
    - Your userscript manager will prompt you to install it.
    - Alternatively, download the user.js and import it to your userscript injector.
 
+3. Alternatively, install the Automatic Redirect Edition:
+   - Click the **Raw** button on [`IMDb RePo - Automatic Redirect Edition.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20RePo%20-%20Automatic%20Redirect%20Edition.user.js)
+   - Your userscript manager will prompt you to install it.
+   - Alternatively, download the user.js and import it to your userscript injector.
+
 3. Done!
 
 > **Heads-up for Chrome/Edge/Brave users:**  
