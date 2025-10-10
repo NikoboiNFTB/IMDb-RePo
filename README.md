@@ -43,6 +43,8 @@
    - Removes the persistent shadow overlay.  
    - Hides the cursor (brute-force, but works).  
      - Contributions for a more elegant solution are welcome.
+   - Version 3.1 also hides the persistent server button. This is separate because some may want the server button. 
+     - [`111Movies Tweaks 3.1.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20Tweaks%203.1.user.js)  
 
 5. **Done. Enjoy.**
 
