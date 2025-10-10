@@ -30,7 +30,7 @@
    - [Greasemonkey (Firefox)](https://www.greasespot.net/)
 
 2. Install the script:
-   - Click the **Raw** button on [`imdb-repo.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20RePo-%20Simple%20and%20Fast%20Redirect%20Portal-1.6.user.js)
+   - Click the **Raw** button on [`imdb-repo.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20RePo-%20Simple%20and%20Fast%20Redirect%20Portal-2.1.user.js)
    - Your userscript manager will prompt you to install it
    - Alternatively, download the user.js and import it to your userscript injector
 
