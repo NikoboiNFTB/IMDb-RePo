@@ -31,7 +31,7 @@
    *(Violentmonkey and Greasemonkey may work, but aren’t officially supported.)*
 
 2. **Install the Script**  
-   - Click **Raw** on [`IMDb RePo 2.1 - Simple and Fast Redirect Portal.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20RePo%202.1%20-%20Simple%20and%20Fast%20Redirect%20Portal.user.js)  
+   - Click **Raw** on [`IMDb RePo 2.2 - Simple and Fast Redirect Portal.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20RePo%202.2%20-%20Simple%20and%20Fast%20Redirect%20Portal.user.js)  
    - Your userscript manager should prompt for installation.  
    - Or download the `.user.js` file manually and import it.
 
