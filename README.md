@@ -31,7 +31,7 @@
    *(Violentmonkey and Greasemonkey may work, but aren’t officially supported.)*
 
 2. **Install the Script**  
-   - Click **Raw** on [`IMDb RePo 2.2 - Simple and Fast Redirect Portal.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20RePo%202.2%20-%20Simple%20and%20Fast%20Redirect%20Portal.user.js)  
+   - Click **Raw** on [`IMDb RePo 4.1 - Simple and Fast Redirect Portal.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20RePo%204.1%20-%20Simple%20and%20Fast%20Redirect%20Portal.user.js)  
    - Your userscript manager should prompt for installation.  
    - Or download the `.user.js` file manually and import it.
 
@@ -75,7 +75,7 @@
 
 - Doesn’t check if the content actually exists (though it usually does, new releases are usually available within a day or two).  
 - Redirect domain is hardcoded to `111movies.com` (feel free to fork and change it).
-- In theory, very slow internet could cause a **TV** page to load with a **MOVIE** button, since the script detects page type before IMDb fully loads.
+- [FIXED IN 3.0] In theory, very slow internet could cause a **TV** page to load with a **MOVIE** button, since the script detects page type before IMDb fully loads.
   - This has never been observed, but please report it if it happens.
   - Any self-correcting solution would add overhead or reduce speed, so it’s not a fix priority until confirmed.
 
