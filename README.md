@@ -36,7 +36,7 @@
    - Or download the `.user.js` file manually and import it.
 
 3. **Alternatively; Automatic Redirect Edition**  
-   For automatic redirect to streaming site: [`IMDb RePo - Automatic Redirect Edition.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20RePo%20-%20Automatic%20Redirect%20Edition.user.js)
+   For automatic redirect to streaming site: [`IMDb AutoRePo 2.0 - IMDb RePo, Automatic Redirect Edition`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20AutoRePo%202.0%20-%20IMDb%20RePo%2C%20Automatic%20Redirect%20Edition)
 
 4. **Recommended Add-on**  
    [`111Movies Tweaks 3.0.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20Tweaks%203.0.user.js)  
