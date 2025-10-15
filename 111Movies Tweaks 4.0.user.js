@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         111Movies Enhancer
+// @name         111Movies Tweaks
 // @namespace    https://github.com/NikoboiNFTB/IMDb-RePo
 // @version      4.0
 // @description  UI fixes (gradient, cursor, buttons) + fetch IMDb title for proper tab naming
