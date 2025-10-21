@@ -40,12 +40,13 @@
    For automatic redirect to streaming site: [`IMDb AutoRePo 3.0 - IMDb RePo, Automatic Redirect Edition`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20AutoRePo%203.0%20-%20IMDb%20RePo%2C%20Automatic%20Redirect%20Edition.user.js)
 
 4. **Recommended Add-on**  
-   [`111Movies Tweaks 3.0.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20Tweaks%203.0.user.js)  
+   [`111Movies Tweaks 4.0.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20Tweaks%204.0.user.js)  
    - Removes the persistent shadow overlay.  
    - Hides the cursor (brute-force, but works).  
      - Contributions for a more elegant solution are welcome.
-   - Version 3.1 also hides the persistent server button. This is separate because some may want the server button. 
-     - [`111Movies Tweaks 3.1.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20Tweaks%203.1.user.js)  
+   - Hides the persistent server button
+   - Fetches tab title from IMDb
+   
 
 5. **Done. Enjoy.**
 
@@ -61,14 +62,12 @@
 ## 💡 How to Use
 
 1. Open any **IMDb movie or show** page.  
-2. A new button appears next to *IMDb Rating*, *Your Rating*, and *Popularity*, either;  
-   - **MOVIE** → Redirects to 111movies.com/movie  
-   - **TV** → Redirects to 111movies.com/tv  
+2. A new button appears next to *IMDb Rating*, *Your Rating*, and *Popularity*;  
+   - **Watch** → Hit **Go** to redirect to **111Movies**  
 3. For TV shows, optionally enter:  
    - **Season (S)**  
    - **Episode (E)**  
    - Defaults to `1/1` if blank  
-4. Click **Go** and you’re there.
 
 ---
 
