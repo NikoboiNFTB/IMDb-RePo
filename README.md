@@ -39,14 +39,20 @@
 3. **Alternatively; Automatic Redirect Edition**  
    For automatic redirect to streaming site: [`IMDb AutoRePo 3.0 - IMDb RePo, Automatic Redirect Edition`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20AutoRePo%203.0%20-%20IMDb%20RePo%2C%20Automatic%20Redirect%20Edition.user.js)
 
-4. **Recommended Add-on**  
-   [`111Movies Tweaks 4.0.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20Tweaks%204.0.user.js)  
-   - Removes the persistent shadow overlay.  
-   - Hides the cursor (brute-force, but works).  
-     - Contributions for a more elegant solution are welcome.
-   - Hides the persistent server button
-   - Fetches tab title from IMDb
-   
+4. **Recommended 111Movies Tweaks**  
+
+   - [`111Movies - Fetch Title 1.0.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Fetch%20Title%201.0.user.js)  
+     Fetches the proper title from IMDb and updates the browser tab.  
+
+   - [`111Movies - Hide Cursor 1.0.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Hide%20Cursor%201.0.user.js)  
+     Removes the persistent shadow overlay on the player.  
+
+   - [`111Movies - Hide Server 1.1.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Hide%20Server%201.1.user.js)  
+     Dynamically hides the server button along with the player controls.  
+
+   - [`111Movies - Remove Gradient 1.0.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Remove%20Gradient%201.0.user.js)  
+     Hides the cursor when not hovering over player controls.  
+     - Brute force, but works. Contributions for a more elegant solution are welcome.
 
 5. **Done. Enjoy.**
 
