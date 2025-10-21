@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         111Movies Tweak - Hide Server Button
+// @name         111Movies - Hide Server
 // @namespace    https://github.com/NikoboiNFTB/IMDb-RePo
 // @version      1.0
 // @description  Hide the server button on 111Movies UI
