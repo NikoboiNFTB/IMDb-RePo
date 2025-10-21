@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         111Movies Tweak - Fetch IMDb Title
+// @name         111Movies - Fetch IMDb Title
 // @namespace    https://github.com/NikoboiNFTB/IMDb-RePo
 // @version      1.0
 // @description  Fetch IMDb title and set page title
