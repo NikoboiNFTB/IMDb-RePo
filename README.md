@@ -1,3 +1,4 @@
+⚠️ Update regular versions 3.0-4.1 to 5.0, and AutoRePo from 2.0 to 3.0, they don't work on 99% of pages ⚠️
 # 🎬 IMDb RePo: Simple & Fast Redirect Portal
 
 **IMDb RePo** is a lightweight, dependency-free userscript that adds IMDb-style buttons to movie and TV pages for instant redirection to external streaming. Simple, fast, and smooth — Sailing the High Seas done right!
@@ -31,12 +32,12 @@
    *(Violentmonkey and Greasemonkey may work, but aren’t officially supported.)*
 
 2. **Install the Script**  
-   - Click **Raw** on [`IMDb RePo 4.1 - Simple and Fast Redirect Portal.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20RePo%204.1%20-%20Simple%20and%20Fast%20Redirect%20Portal.user.js)  
+   - Click **Raw** on [`IMDb RePo 5.0 - Simple and Fast Redirect Portal.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20RePo%205.0%20-%20Simple%20and%20Fast%20Redirect%20Portal.user.js)  
    - Your userscript manager should prompt for installation.  
    - Or download the `.user.js` file manually and import it.
 
 3. **Alternatively; Automatic Redirect Edition**  
-   For automatic redirect to streaming site: [`IMDb AutoRePo 2.0 - IMDb RePo, Automatic Redirect Edition`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20AutoRePo%202.0%20-%20IMDb%20RePo%2C%20Automatic%20Redirect%20Edition)
+   For automatic redirect to streaming site: [`IMDb AutoRePo 3.0 - IMDb RePo, Automatic Redirect Edition`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20AutoRePo%203.0%20-%20IMDb%20RePo%2C%20Automatic%20Redirect%20Edition.user.js)
 
 4. **Recommended Add-on**  
    [`111Movies Tweaks 3.0.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20Tweaks%203.0.user.js)  
