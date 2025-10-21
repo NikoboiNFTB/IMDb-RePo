@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         111Movies Tweak - Hide Cursor
+// @name         111Movies - Hide Cursor
 // @namespace    https://github.com/NikoboiNFTB/IMDb-RePo
 // @version      1.0
 // @description  Hides cursor when not near UI controls. Brute force, but works.
