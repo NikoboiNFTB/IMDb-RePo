@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         111Movies Tweak - Remove Gradient from Player
+// @name         111Movies - Remove Gradient
 // @namespace    https://github.com/NikoboiNFTB/IMDb-RePo
 // @version      1.0
 // @description  Remove gradient overlay on 111Movies
