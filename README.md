@@ -1,4 +1,4 @@
-⚠️ Update regular versions 3.0-4.1 to 5.1, and AutoRePo from 2.0 to 3.0, they don't work on 99% of pages ⚠️
+⚠️ Update regular versions 3.0-4.1 to 5.x or 6.x, and AutoRePo from 2.0 to 3.x or 6.x, they don't work on 99% of pages ⚠️
 # 🎬 IMDb RePo: Simple & Fast Redirect Portal
 
 **IMDb RePo** is a lightweight, dependency-free userscript that adds IMDb-style buttons to movie and TV pages for instant redirection to external streaming. Simple, fast, and smooth — Sailing the High Seas done right!
@@ -32,14 +32,15 @@
    *(Violentmonkey and Greasemonkey may work, but aren’t officially supported.)*
 
 2. **Install the Script**  
-   - Click **Raw** on [`IMDb RePo 5.1 - Simple and Fast Redirect Portal.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20RePo%205.1%20-%20Simple%20and%20Fast%20Redirect%20Portal.user.js)  
+   - Click **Raw** on [`IMDb RePo 6.0 - Simple and Fast Redirect Portal.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20RePo%206.0%20-%20Simple%20and%20Fast%20Redirect%20Portal.user.js)  
    - Your userscript manager should prompt for installation.  
    - Or download the `.user.js` file manually and import it.
 
 3. **Alternatively; Automatic Redirect Edition**  
-   For automatic redirect to streaming site: [`IMDb AutoRePo 3.0 - IMDb RePo, Automatic Redirect Edition`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20AutoRePo%203.0%20-%20IMDb%20RePo%2C%20Automatic%20Redirect%20Edition.user.js)
+   For automatic redirect to streaming site: [`IMDb AutoRePo 6.0 - IMDb RePo, Automatic Redirect Edition`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20AutoRePo%206.0%20-%20IMDb%20RePo%2C%20Automatic%20Redirect%20Edition.user.js)
+     - not recommended for watching a specific episode of a series.
 
-4. **Recommended 111Movies Tweaks**  
+5. **Recommended 111Movies Tweaks**  
 
    - [`111Movies - Fetch Title 1.0.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Fetch%20Title%201.0.user.js)  
      Fetches the proper title from IMDb and updates the browser tab.  
@@ -54,7 +55,7 @@
      Hides the cursor when not hovering over player controls.  
      - Brute force, but works. Contributions for a more elegant solution are welcome.
 
-5. **Done. Enjoy.**
+6. **Done. Enjoy.**
 
 > **Chrome / Edge / Brave Users:**  
 > Make sure Tampermonkey can actually *run* userscripts:  
