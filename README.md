@@ -44,20 +44,20 @@
 5. **Recommended 111Movies Tweaks**  
 
    - [`111Movies - Fetch Title`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Fetch%20Title%201.0.user.js)  
-     Fetches the proper title from IMDb and updates the browser tab.  
+     Fetches the proper title from IMDb and updates the browser tab.
 
-   - [`111Movies - Hide Cursor`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Hide%20Cursor%201.0.user.js)  
+   - [`111Movies - Add Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Add%20Favicon%201.0.user.js)  
+     Similarly to `111Movies - Fetch Title`, this fetches the 111Movies logo and adds it as Favicon.  
+
+   - [`111Movies - Remove Gradient`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Remove%20Gradient%201.0.user.js)  
      Removes the persistent shadow overlay on the player.  
 
    - [`111Movies - Hide Server`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Hide%20Server%201.1.user.js)  
      Dynamically hides the server button along with the player controls.  
 
-   - [`111Movies - Remove Gradient`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Remove%20Gradient%201.0.user.js)  
+   - [`111Movies - Hide Cursor`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Hide%20Cursor%201.0.user.js)  
      Hides the cursor when not hovering over player controls.  
      - Brute force, but works. Contributions for a more elegant solution are welcome.
-
-   - [`111Movies - Add Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Remove%20Gradient%201.0.user.js)
-     - Similarly to `111Movies - Fetch Title`, this fetches the 111Movies logo and adds it as Favicon.
 
 6. **Done. Enjoy.**
 
