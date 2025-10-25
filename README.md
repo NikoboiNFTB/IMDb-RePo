@@ -1,6 +1,6 @@
 # 🎬 IMDb RePo: Simple & Fast Redirect Portal
 
-**IMDb RePo** is a lightweight, dependency-free userscript that adds IMDb-style buttons to movie and TV pages for instant redirection to external streaming. Simple, fast, and smooth — Sailing the High Seas done right!
+**IMDb RePo** is a lightweight, dependency-free userscript that adds IMDb-style buttons to movie, TV and Episode pages for instant redirection to external streaming. Simple, fast, and smooth — Sailing the High Seas done right!
 
 ---
 
@@ -10,9 +10,11 @@
   Blends seamlessly with IMDb’s own UI.
 
 - 🎬 **One-Click Redirects**  
-  - Movies → `https://111movies.com/movie/{IMDb-ID}`  
-  - TV Shows → `https://111movies.com/tv/{IMDb-ID}/S/E`  
-    - You can even prefill **season** and **episode** before clicking (or just hit Enter).
+  - On Movie pages → `https://111movies.com/movie/{IMDb-ID}`  
+  - On TV Show pages → `htps://111movies.com/tv/{IMDb-ID}/S/E`  
+    - You can even prefill **season** and **episode** before clicking (or just hit Enter)!
+  - On Episode pages → `https://111movies.com/tv/{IMDb-ID}/S/E`
+    - Automatically finds the Series ID and constructs the link!
 
 - ⚡ **Instant Load**  
   Buttons appear before the full page finishes loading.
@@ -41,18 +43,21 @@
 
 5. **Recommended 111Movies Tweaks**  
 
-   - [`111Movies - Fetch Title 1.0.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Fetch%20Title%201.0.user.js)  
+   - [`111Movies - Fetch Title`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Fetch%20Title%201.0.user.js)  
      Fetches the proper title from IMDb and updates the browser tab.  
 
-   - [`111Movies - Hide Cursor 1.0.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Hide%20Cursor%201.0.user.js)  
+   - [`111Movies - Hide Cursor`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Hide%20Cursor%201.0.user.js)  
      Removes the persistent shadow overlay on the player.  
 
-   - [`111Movies - Hide Server 1.1.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Hide%20Server%201.1.user.js)  
+   - [`111Movies - Hide Server`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Hide%20Server%201.1.user.js)  
      Dynamically hides the server button along with the player controls.  
 
-   - [`111Movies - Remove Gradient 1.0.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Remove%20Gradient%201.0.user.js)  
+   - [`111Movies - Remove Gradient`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Remove%20Gradient%201.0.user.js)  
      Hides the cursor when not hovering over player controls.  
      - Brute force, but works. Contributions for a more elegant solution are welcome.
+
+   - [`111Movies - Add Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Remove%20Gradient%201.0.user.js)
+     - Similarly to `111Movies - Fetch Title`, this fetches the 111Movies logo and adds it as Favicon.
 
 6. **Done. Enjoy.**
 
@@ -60,14 +65,17 @@
 > Make sure Tampermonkey can actually *run* userscripts:  
 > - Go to `chrome://extensions/` (or equivalent)  
 > - Click **Details** under Tampermonkey  
-> - Enable **“Allow access to file URLs”** and **“Allow User Scripts”** (toggle Developer Mode if needed)  
-> - Refresh IMDb afterward
+> - Enable **“Allow access to file URLs”**, **“Allow User Scripts”** and **"Developer Mode"**, then hit **"Update"**
+>   - Yes, this is annoying.
+>   - Yes, it's Chromium's fault.
+>   - No, I can't fix this. 
+> - Re-open the IMDb tab. Reloading wasn't enough in my testing. 
 
 ---
 
 ## 💡 How to Use
 
-1. Open any **IMDb movie or show** page.  
+1. Open any **IMDb movie**, **TV Show** or **Episode** page.  
 2. A new button appears next to *IMDb Rating*, *Your Rating*, and *Popularity*;  
    - **Watch** → Hit **Go** to redirect to **111Movies**  
 3. For TV shows, optionally enter:  
