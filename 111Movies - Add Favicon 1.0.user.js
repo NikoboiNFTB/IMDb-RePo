@@ -6,6 +6,7 @@
 // @author       you
 // @match        https://111movies.com/*
 // @grant        none
+// @icon         https://111movies.com/assets/img/logo.png
 // ==/UserScript==
 
 (function() {
