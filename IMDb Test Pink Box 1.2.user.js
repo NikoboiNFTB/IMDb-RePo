@@ -5,6 +5,7 @@
 // @description  Test injection point on IMDb pages
 // @match        *://*.imdb.com/title/*
 // @grant        none
+// @icon         https://m.media-amazon.com/images/G/01/imdb/images-ANDW73HA/favicon_iPhone_retina_180x180._CB1582158069_UX196_.png
 // ==/UserScript==
 
 (function() {
