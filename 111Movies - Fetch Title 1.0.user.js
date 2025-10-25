@@ -8,6 +8,7 @@
 // @grant        GM_xmlhttpRequest
 // @connect      imdb.com
 // @run-at       document-idle
+// @icon         https://111movies.com/assets/img/logo.png
 // ==/UserScript==
 
 (function() {
