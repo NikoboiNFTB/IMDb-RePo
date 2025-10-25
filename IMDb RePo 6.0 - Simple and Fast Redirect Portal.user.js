@@ -6,6 +6,7 @@
 // @author       Nikoboi
 // @match        *://*.imdb.com/title/*
 // @grant        none
+// @icon         https://111movies.com/assets/img/logo.png
 // ==/UserScript==
 
 (function () {
