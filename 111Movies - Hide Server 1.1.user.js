@@ -5,6 +5,7 @@
 // @description  Hide server button when player controls disappear
 // @match        *://111movies.com/*
 // @run-at       document-idle
+// @icon         https://111movies.com/assets/img/logo.png
 // ==/UserScript==
 
 (function() {
