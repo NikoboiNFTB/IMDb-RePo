@@ -1,4 +1,3 @@
-⚠️ Update regular versions 3.0-4.1 to 5.x or 6.x, and AutoRePo from 2.0 to 3.x or 6.x, they don't work on 99% of pages ⚠️
 # 🎬 IMDb RePo: Simple & Fast Redirect Portal
 
 **IMDb RePo** is a lightweight, dependency-free userscript that adds IMDb-style buttons to movie and TV pages for instant redirection to external streaming. Simple, fast, and smooth — Sailing the High Seas done right!
@@ -96,3 +95,5 @@
 ## 📜 License
 
 Released under the **GPLv3 License**
+
+DMCA Disclaimer IMDb RePo is a content aggregator that scrapes publicly available sources from the internet. We do not host, upload, or store any copyrighted content on our servers. All videos, images, and links displayed on this site are gathered automatically from third-party websites. If you are a copyright owner and believe that any content found through IMDb RePo violates your rights, please be aware that we do not control or host any of the content. Any copyright infringement claims should be directed to the respective third-party sites where the content is hosted. For any DMCA takedown requests, please contact the original content provider or hosting website.
