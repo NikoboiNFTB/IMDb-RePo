@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         111Movies - Add Favicon
+// @name         111Movies - Add Page Favicon
 // @namespace    https://github.com/NikoboiNFTB/IMDb-RePo
 // @version      1.0
 // @description  Injects a favicon into the site because they forgor.
