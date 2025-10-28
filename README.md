@@ -33,31 +33,32 @@
    *(Violentmonkey and Greasemonkey may work, but aren’t officially supported.)*
 
 2. **Install the Script**  
-   - Click **Raw** on [`IMDb RePo 6.0 - Simple and Fast Redirect Portal.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20RePo%206.0%20-%20Simple%20and%20Fast%20Redirect%20Portal.user.js)  
+   - Click **Raw** on [`IMDb-RePo-6.0.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb-RePo-6.0.user.js)  
    - Your userscript manager should prompt for installation.  
    - Or download the `.user.js` file manually and import it.
 
 3. **Alternatively; Automatic Redirect Edition**  
-   For automatic redirect to streaming site: [`IMDb AutoRePo 6.0 - IMDb RePo, Automatic Redirect Edition`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb%20AutoRePo%206.0%20-%20IMDb%20RePo%2C%20Automatic%20Redirect%20Edition.user.js)
-     - not recommended for watching a specific episode of a series.
+   For automatic redirect to streaming site: [`IMDb-AutoRePo-6.0.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/IMDb-AutoRePo-6.0.user.js)
+     - Not recommended for watching a specific episode of a series, or in general, really.
 
 5. **Recommended 111Movies Tweaks**  
 
-   - [`111Movies - Fetch Title`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Fetch%20Title%201.0.user.js)  
-     Fetches the proper title from IMDb and updates the browser tab.
-
-   - [`111Movies - Add Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Add%20Favicon%201.0.user.js)  
-     Similarly to `111Movies - Fetch Title`, this fetches the 111Movies logo and adds it as Favicon.  
-
-   - [`111Movies - Remove Gradient`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Remove%20Gradient%201.0.user.js)  
+   - [`Remove Player Gradient`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies-Gradient-1.0.user.js)  
      Removes the persistent shadow overlay on the player.  
 
-   - [`111Movies - Hide Server`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Hide%20Server%201.1.user.js)  
-     Dynamically hides the server button along with the player controls.  
+   - [`Hide Server`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies-Server-1.1.user.js)  
+     Hides the server button along with the rest of the Player UI.
 
-   - [`111Movies - Hide Cursor`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies%20-%20Hide%20Cursor%201.0.user.js)  
-     Hides the cursor when not hovering over player controls.  
+   - [`Hide Cursor`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies-Cursor-1.1.user.js)  
+     Hides the cursor with the rest of the Player GUI when not hovering over player controls.  
      - Brute force, but works. Contributions for a more elegant solution are welcome.
+
+   - [`Add Page Title`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies-Title-1.0.user.js)  
+     Add a page title based on IMDb ID.
+     - For example, the title `South Park (TV Series 1997– ) - IMDb` becomes `South Park (TV Series 1997– ) - 111Movies`.
+
+   - [`Add Page Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/111Movies-Favicon-1.0.user.js)  
+     Fetches the 111Movies logo from [`https://111movies.com/assets/img/logo.png`](https://111movies.com/assets/img/logo.png)
 
 6. **Done. Enjoy.**
 
