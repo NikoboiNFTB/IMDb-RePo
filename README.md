@@ -32,9 +32,9 @@
    - [Tampermonkey (Chromium)](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)  
    *(Violentmonkey and Greasemonkey may work, but aren’t officially supported.)*
 
-2. **Install the Script**  
+2. **Install the Script** (choose one way, listed easiest to hardest)  
    - Click [here](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/IMDb-RePo-6.0.user.js) and install when prompted.
-   - Your userscript manager should prompt for installation.  
+   - Copy-paste all code into a new userscript.  
    - Or download the `.user.js` file manually and import it.
 
 3. **Alternatively; Automatic Redirect Edition**  
