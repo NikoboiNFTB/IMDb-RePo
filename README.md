@@ -88,7 +88,8 @@
 
 ## ⚠️ Limitations
 
-- Doesn’t check if the content actually exists (though it usually does, new releases are usually available within a day or two).  
+- Doesn’t check if the content actually exists
+  - Though it usually does, new releases are usually available within a day or two.  
 - Redirect domain is hardcoded to `111movies.com` (feel free to fork and change it).
 
 ---
