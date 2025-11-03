@@ -105,4 +105,8 @@
 
 Released under the **GPLv3 License**
 
-DMCA Disclaimer IMDb RePo is a content aggregator that scrapes publicly available sources from the internet. We do not host, upload, or store any copyrighted content on our servers. All videos, images, and links displayed on this site are gathered automatically from third-party websites. If you are a copyright owner and believe that any content found through IMDb RePo violates your rights, please be aware that we do not control or host any of the content. Any copyright infringement claims should be directed to the respective third-party sites where the content is hosted. For any DMCA takedown requests, please contact the original content provider or hosting website.
+## ⚖️ Legal Disclaimer
+
+IMDb RePo is a redirecting tool to a external content aggregator that scrapes publicly available sources from the internet. We do not host, upload, or store any copyrighted content on our servers. All videos, images, and links displayed on this site are gathered automatically from third-party websites. If you are a copyright owner and believe that any content found through IMDb RePo violates your rights, please be aware that we do not control or host any of the content. Any copyright infringement claims should be directed to the respective third-party sites where the content is hosted. For any DMCA takedown requests, please contact the original content provider or hosting website.  
+
+IMDb RePo is an independent project and is not affiliated with, endorsed by, or in any way connected to IMDb.com or 111Movies.com. IMDb and 111Movies are trademarks of their respective owners, and all rights to these trademarks are acknowledged. The use of these names and references is for descriptive purposes only.
