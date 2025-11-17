@@ -22,6 +22,13 @@
 - 🧩 **Tiny & Readable**  
   Fully self-contained. No dependencies. Easy to tweak.
 
+- **Multiple Tweaks for 111Movies**
+  - Remove Player Gradient
+  - Hide Server
+  - Hide Cursor
+  - Add Page Title
+  - Add Page Favicon
+
 ---
 
 ## 🛠 Installation
@@ -41,7 +48,17 @@
    For automatic redirect to streaming site: Click [here](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/IMDb-AutoRePo-6.0.user.js)
      - Not recommended for watching a specific episode of a series, or in general, really.
 
-5. **Recommended 111Movies Tweaks**  
+4. **Done. Enjoy.**
+
+>> **Chrome / Edge / Brave Users:**  
+>> Make sure Tampermonkey can actually *run* userscripts:  
+>> - Go to `chrome://extensions/` (or equivalent)  
+>> - Click **Details** under Tampermonkey  
+>> - Enable **“Allow access to file URLs”**, **“Allow User Scripts”** and **"Developer Mode"**, then hit **"Update"**
+>> - Re-open the IMDb tab. Reloading wasn't enough in my testing.
+>>   - Yes, this is a bit annoying, and yes, it's Chromium's fault, and no, I can't fix this.
+
+## **Recommended 111Movies Tweaks**  
 
    - [`Remove Player Gradient`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies-Gradient-1.0.user.js)  
      Removes the persistent shadow overlay on the player.  
@@ -59,18 +76,6 @@
 
    - [`Add Page Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies-Favicon-1.0.user.js)  
      Fetches the 111Movies logo from [`https://111movies.com/assets/img/logo.png`](https://111movies.com/assets/img/logo.png)
-
-6. **Done. Enjoy.**
-
-> **Chrome / Edge / Brave Users:**  
-> Make sure Tampermonkey can actually *run* userscripts:  
-> - Go to `chrome://extensions/` (or equivalent)  
-> - Click **Details** under Tampermonkey  
-> - Enable **“Allow access to file URLs”**, **“Allow User Scripts”** and **"Developer Mode"**, then hit **"Update"**
->   - Yes, this is annoying.
->   - Yes, it's Chromium's fault.
->   - No, I can't fix this. 
-> - Re-open the IMDb tab. Reloading wasn't enough in my testing. 
 
 ---
 
