@@ -63,7 +63,7 @@
    - [`Remove Player Gradient`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies-Gradient-1.0.user.js)  
      Removes the persistent shadow overlay on the player.  
 
-   - [`Hide Server`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies-Server-1.1.user.js)  
+   - [`Hide Server`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies-Server-1.2.user.js)  
      Hides the server button along with the rest of the Player UI.
 
    - [`Hide Cursor`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies-Cursor-1.2.user.js)  
@@ -74,7 +74,7 @@
      Add a page title based on IMDb ID.
      - For example, the title `South Park (TV Series 1997– ) - IMDb` becomes `South Park (TV Series 1997– ) - 111Movies`.
 
-   - [`Add Page Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies-Favicon-1.0.user.js)  
+   - [`Add Page Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies-Favicon-1.1.user.js)  
      Fetches the 111Movies logo from [`https://111movies.com/assets/img/logo.png`](https://111movies.com/assets/img/logo.png)
 
 ---
