@@ -34,18 +34,18 @@
 ## 🛠 Installation
 
 1. **Install a Userscript Manager**  
-   Recommended: Firefox + Tampermonkey  
-   - [Tampermonkey (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)  
+   Recommended: Firefox + Violentmonkey  
+   - [Violentmonkey (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)  
    - [Tampermonkey (Chromium)](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)  
-   *(Violentmonkey and Greasemonkey may work, but aren’t officially supported.)*
+   >> *Firefox + Violentmonkey are recommended because they are both Free and Open-Source. However, neither is available on Chromium. On Chromium, the proprietary Tampermonkey extension is recommended.*
 
 2. **Install the Script** (choose one way, listed easiest to hardest)  
-   - Click [here](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/IMDb-RePo-6.0.user.js) and install when prompted.
+   - Click [here](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/imdb-repo-6.0.user.js) and install when prompted.
    - Copy-paste all code into a new userscript.  
    - Or download the `.user.js` file manually and import it.
 
 3. **Alternatively; Automatic Redirect Edition**  
-   For automatic redirect to streaming site: Click [here](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/IMDb-AutoRePo-6.0.user.js)
+   For automatic redirect to streaming site: Click [here](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/imdb-autorepo-6.0.user.js)
      - Not recommended for watching a specific episode of a series, or in general, really.
 
 4. **Done. Enjoy.**
@@ -60,21 +60,21 @@
 
 ## **Recommended 111Movies Tweaks**  
 
-   - [`Remove Player Gradient`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies-Gradient-1.0.user.js)  
+   - [`Remove Player Gradient`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111movies-gradient-1.0.user.js)  
      Removes the persistent shadow overlay on the player.  
 
-   - [`Hide Server`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies-Server-1.2.user.js)  
+   - [`Hide Server`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111movies-server-1.2.user.js)  
      Hides the server button along with the rest of the Player UI.
 
-   - [`Hide Cursor`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies-Cursor-1.2.user.js)  
+   - [`Hide Cursor`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111movies-cursor-1.2.user.js)  
      Hides the cursor with the rest of the Player GUI when not hovering over player controls.  
      - Brute force, but works. Contributions for a more elegant solution are welcome.
 
-   - [`Add Page Title`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies-Title-1.0.user.js)  
+   - [`Add Page Title`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111movies-title-1.0.user.js)  
      Add a page title based on IMDb ID.
      - For example, the title `South Park (TV Series 1997– ) - IMDb` becomes `South Park (TV Series 1997– ) - 111Movies`.
 
-   - [`Add Page Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies-Favicon-1.1.user.js)  
+   - [`Add Page Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111movies-favicon-1.1.user.js)  
      Fetches the 111Movies logo from [`https://111movies.com/assets/img/logo.png`](https://111movies.com/assets/img/logo.png)
 
 ---
