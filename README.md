@@ -74,7 +74,7 @@
      Add a page title based on IMDb ID.
      - For example, the title `South Park (TV Series 1997– ) - IMDb` becomes `South Park (TV Series 1997– ) - 111Movies`.
 
-   - [`Add Page Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111movies-favicon-1.1.user.js)  
+   - [`Add Page Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111movies-favicon-1.2.user.js)  
      Fetches the 111Movies logo from [`https://111movies.com/assets/img/logo.png`](https://111movies.com/assets/img/logo.png)
 
 ---
