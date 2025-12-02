@@ -40,12 +40,12 @@
    >> *Firefox + Violentmonkey are recommended because they are both Free and Open-Source. However, neither is available on Chromium. On Chromium, the proprietary Tampermonkey extension is recommended.*
 
 2. **Install the Script** (choose one way, listed easiest to hardest)  
-   - Click [here](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/imdb-repo-6.0.user.js) and install when prompted.
+   - Click [here](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/imdb-repo-6.1.user.js) and install when prompted.
    - Copy-paste all code into a new userscript.  
    - Or download the `.user.js` file manually and import it.
 
 3. **Alternatively; Automatic Redirect Edition**  
-   For automatic redirect to streaming site: Click [here](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/imdb-autorepo-6.0.user.js)
+   For automatic redirect to streaming site: Click [here](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/imdb-autorepo-6.1.user.js)
      - Not recommended for watching a specific episode of a series, or in general, really.
 
 4. **Done. Enjoy.**

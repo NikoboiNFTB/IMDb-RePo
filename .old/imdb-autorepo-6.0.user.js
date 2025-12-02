@@ -25,7 +25,7 @@
     if (document.querySelector('[aria-label="View episode guide"]')) return 'TV';
     if (document.querySelector('[aria-label="View Popular TV Shows"]')) return 'TV';
     if (document.querySelector('[aria-label="View Popular Movies"]')) return 'Movie';
-    return 'Movie'; // fallback
+    return 'Movie'; // 
   }
 
   function buildRedirectURL(type) {
