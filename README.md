@@ -70,7 +70,7 @@
      Hides the cursor with the rest of the Player GUI when not hovering over player controls.  
      - Brute force, but works. Contributions for a more elegant solution are welcome.
 
-   - [`Add Page Title`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111movies-title-1.1.user.js)  
+   - [`Add Page Title`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111movies-title-1.2.user.js)  
      Add a page title based on IMDb ID.
      - For example, the title `South Park (TV Series 1997– ) - IMDb` becomes `South Park (TV Series 1997– ) - 111Movies`.
 
