@@ -53,14 +53,15 @@ Simple and Fast Redirect Portal, adds quick and easy way to access your favorite
 
     Adds a page Favicon.
 
-## 🛠 Installation
+## Installation
 
 1. ### Install a Userscript Manager
 
-   Recommended: Firefox + Violentmonkey  
-   - [Violentmonkey (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)  
-   - [Tampermonkey (Chromium)](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)  
-   >> *Firefox + Violentmonkey are recommended because they are both Free and Open-Source. However, neither is available on Chromium. On Chromium, the proprietary Tampermonkey extension is recommended.*
+>> Recommended: Firefox + Violentmonkey
+
+  - [Violentmonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
+  - [Tampermonkey for Chromium](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+  - If you're for some reason on Chromium, [install Tampermonkey]
 
 2. ### Install the Script (choose one way, listed easiest to hardest)
 
