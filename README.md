@@ -57,8 +57,7 @@ Simple and Fast Redirect Portal, adds quick and easy way to access your favorite
 
 1. ### Install a Userscript Manager
 
-  Recommended: Firefox + Violentmonkey
-
+- Recommended: Firefox + Violentmonkey
   - Fully Free and Open-Source, simpler setup, install screen shows notable permissions.
 
 - [Violentmonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
