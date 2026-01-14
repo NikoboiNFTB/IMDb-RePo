@@ -57,10 +57,12 @@ Simple and Fast Redirect Portal, adds quick and easy way to access your favorite
 
 1. ### Install a Userscript Manager
 
->> Recommended: Firefox + Violentmonkey
+  Recommended: Firefox + Violentmonkey
 
-  - [Violentmonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
-  - [Tampermonkey for Chromium](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+  - Fully Free and Open-Source, simpler setup, install screen shows notable permissions.
+
+- [Violentmonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
+- [Tampermonkey for Chromium](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 
 2. ### Install the Script (choose one way, listed easiest to hardest)
 
