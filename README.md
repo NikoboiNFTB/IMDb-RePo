@@ -55,7 +55,7 @@ Simple and Fast Redirect Portal, adds quick and easy way to access your favorite
 
 ## Installation
 
-1. ### Install a Userscript Manager
+1. ### Install a Userscript Manager  
 
     Recommended: Firefox + Violentmonkey
 
