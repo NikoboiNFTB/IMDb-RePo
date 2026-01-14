@@ -70,22 +70,21 @@ You will need to enable running scripts in Tampermonkey settings:
 
 ## **Recommended 111Movies Tweaks**
 
-- [`Remove Player Gradient`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-gradient-1.0.user.js)
+### [`Remove Player Gradient`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-gradient-1.0.user.js)
+- Removes the persistent shadow overlay on the player.
 
-  - Removes the persistent shadow overlay on the player.
+### [`Hide Server`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-server-1.2.user.js)
+- Hides the server button along with the rest of the Player UI.
 
-- [`Hide Server`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-server-1.2.user.js)  
-  - Hides the server button along with the rest of the Player UI.
+#### [`Hide Cursor`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-cursor-1.2.user.js)
+- Hides the cursor with the rest of the Player GUI when not hovering over player controls.
+- Brute force, but works. Contributions for a more elegant solution are welcome.
 
-- [`Hide Cursor`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-cursor-1.2.user.js)  
-  - Hides the cursor with the rest of the Player GUI when not hovering over player controls.  
-  - Brute force, but works. Contributions for a more elegant solution are welcome.
+#### [`Add Page Title`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-title-1.2.user.js)  
+- Add a page title based on IMDb ID.
+- For example, the title `South Park (TV Series 1997– ) - IMDb` becomes `South Park (TV Series 1997– ) - 111Movies`.
 
-- [`Add Page Title`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-title-1.2.user.js)  
-  - Add a page title based on IMDb ID.
-  - For example, the title `South Park (TV Series 1997– ) - IMDb` becomes `South Park (TV Series 1997– ) - 111Movies`.
-
-- [`Add Page Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-favicon-1.2.user.js)  
+- [`Add Page Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-favicon-1.2.user.js)
   - Fetches the 111Movies logo from [`https://111movies.com/assets/img/logo.png`](https://111movies.com/assets/img/logo.png)
 
 ## Contributing
