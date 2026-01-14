@@ -63,21 +63,22 @@ Simple and Fast Redirect Portal, adds quick and easy way to access your favorite
 - [Violentmonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
 - [Tampermonkey for Chromium](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 
-2. ### Install the Script (choose one way, listed easiest to hardest)
+### 2. Install the Script (choose one way, listed easiest to hardest)
 
    - Click [here](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/imdb-repo-6.1.user.js) and install when prompted.
    - Copy-paste all code into a new userscript.
    - Or download the [`.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/imdb-repo-6.1.user.js) file manually and import it.
 
-3. ### Done, enjoy!
+### 3. Firefox users, you're done, enjoy!
 
->> **Chromium Users:**  
->> Make sure Tampermonkey can actually *run* userscripts:  
->> - Go to `chrome://extensions/` (or equivalent)  
->> - Click **Details** under Tampermonkey  
->> - Enable **“Allow access to file URLs”**, **“Allow User Scripts”** and **"Developer Mode"**, then hit **"Update"**
->> - Re-open the IMDb tab. Reloading wasn't enough in my testing.
->>   - Yes, this is a bit annoying, and yes, it's Chromium's fault, and no, I can't fix this.
+### 4. Chromium users:
+
+You will need to enable running scripts in Tampermonkeysettings:
+
+1. Go to `chrome://extensions/` (or equivalent)
+2. Click **Details** under Tampermonkey
+3. Enable **“Allow access to file URLs”**, **“Allow User Scripts”** and **"Developer Mode"**, then hit **"Update"**
+4. Re-open the IMDb tab. Reloading it wasn't enough in my testing.
 
 ## How to Use
 
