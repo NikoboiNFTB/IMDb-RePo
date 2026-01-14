@@ -1,35 +1,45 @@
-# 🎬 IMDb RePo: Simple & Fast Redirect Portal
+# IMDb RePo: Simple & Fast Redirect Portal
+
+Simple and Fast Redirect Portal, adds quick and easy way to access your favorite movies and TV-shows directly from the IMDb website.
+
+## Description
 
 **IMDb RePo** is a lightweight, dependency-free userscript that adds IMDb-style buttons to movie, TV and Episode pages for instant redirection to external streaming. Simple, fast, and smooth — Sailing the High Seas done right!
 
----
-
 ## 🚀 Features
 
-- 🟡 **Native IMDb-Style Buttons**  
-  Blends seamlessly with IMDb’s own UI.
+🟡 **Native IMDb-Style Buttons**
 
-- 🎬 **One-Click Redirects**  
-  - On Movie pages → `https://111movies.com/movie/{IMDb-ID}`  
-  - On TV Show pages → `htps://111movies.com/tv/{IMDb-ID}/S/E`  
-    - You can even prefill **season** and **episode** before clicking (or just hit Enter)!
-  - On Episode pages → `https://111movies.com/tv/{IMDb-ID}/S/E`
-    - Automatically finds the Series ID and constructs the link!
+Blends seamlessly with IMDb’s own UI.
 
-- ⚡ **Instant Load**  
-  Buttons appear before the full page finishes loading.
+🎬 **One-Click Redirects**
 
-- 🧩 **Tiny & Readable**  
-  Fully self-contained. No dependencies. Easy to tweak.
+- On Movie pages → `https://111movies.com/movie/{IMDb-ID}`
+- On TV Show pages → `htps://111movies.com/tv/{IMDb-ID}/S/E`
+  - Defaults to **S01E01**
+  - You can even prefill **season** and **episode** before clicking (or just hit Enter)!
+- On Episode pages → `https://111movies.com/tv/{IMDb-ID}/S/E`
+  - Automatically finds the Series ID, Season and Episode, and constructs the link!
 
-- **Multiple Tweaks for 111Movies**
-  - Remove Player Gradient
-  - Hide Server
-  - Hide Cursor
-  - Add Page Title
-  - Add Page Favicon
+⚡ **Instant Load**
 
----
+Buttons appear as soon as possible.
+
+🧩 **Tiny & Readable**
+
+Fully self-contained. No dependencies. Easy to tweak.
+
+🔧 **Multiple Tweaks for 111Movies**
+- **Remove Player Gradient**
+  - Removes the original sites stupid design choice.
+- **Hide Server**
+  - Dynamically hides the server icon, rather than always showing it.
+- **Hide Cursor**
+  - Dynamically hides your cursor, rather than always showing it.
+- **Add Page Title**
+  - Rip the page title from IMDb and inject it to the 111Movies site.
+- **Add Page Favicon**
+  - Adds a page Favicon.
 
 ## 🛠 Installation
 
@@ -60,24 +70,22 @@
 
 ## **Recommended 111Movies Tweaks**  
 
-   - [`Remove Player Gradient`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111movies-gradient-1.0.user.js)  
+   - [`Remove Player Gradient`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-gradient-1.0.user.js)  
      Removes the persistent shadow overlay on the player.  
 
-   - [`Hide Server`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111movies-server-1.2.user.js)  
+   - [`Hide Server`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-server-1.2.user.js)  
      Hides the server button along with the rest of the Player UI.
 
-   - [`Hide Cursor`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111movies-cursor-1.2.user.js)  
+   - [`Hide Cursor`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-cursor-1.2.user.js)  
      Hides the cursor with the rest of the Player GUI when not hovering over player controls.  
      - Brute force, but works. Contributions for a more elegant solution are welcome.
 
-   - [`Add Page Title`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111movies-title-1.2.user.js)  
+   - [`Add Page Title`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-title-1.2.user.js)  
      Add a page title based on IMDb ID.
      - For example, the title `South Park (TV Series 1997– ) - IMDb` becomes `South Park (TV Series 1997– ) - 111Movies`.
 
-   - [`Add Page Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111movies-favicon-1.2.user.js)  
+   - [`Add Page Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-favicon-1.2.user.js)  
      Fetches the 111Movies logo from [`https://111movies.com/assets/img/logo.png`](https://111movies.com/assets/img/logo.png)
-
----
 
 ## 💡 How to Use
 
@@ -89,23 +97,17 @@
    - **Episode (E)**  
    - Defaults to `1/1` if blank  
 
----
-
 ## ⚠️ Limitations
 
 - Doesn’t check if the content actually exists
   - Though it usually does, new releases are usually available within a day or two.  
 - Redirect domain is hardcoded to `111movies.com` (feel free to fork and change it).
 
----
-
 ## 🤝 Credits
 
 - Created by **Nikoboi**  
 - Script logic fine-tuned with **ChatGPT**  
 - Styling inspired by IMDb’s native interface  
-
----
 
 ## 📜 License
 
