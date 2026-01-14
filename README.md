@@ -32,6 +32,7 @@ Simple and Fast Redirect Portal, adds quick and easy way to access your favorite
   Fully self-contained. No dependencies. Easy to tweak.
 
 - **Multiple Tweaks for 111Movies**
+
   **Remove Player Gradient**
   - Removes the original sites stupid design choice.
   **Hide Server**
