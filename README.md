@@ -33,20 +33,25 @@ Fully self-contained. No dependencies. Easy to tweak.
 
 ### Tweaks for 111Movies
 
-**Remove Player Gradient**
-- Removes the original sites stupid design choice.
+#### Remove Player Gradient
 
-**Hide Server**
-- Dynamically hides the server icon, rather than always showing it.
+Removes the original sites stupid design choice.
 
-**Hide Cursor**
-- Dynamically hides your cursor, rather than always showing it.
+#### Hide Server
 
-**Add Page Title**
-- Rip the page title from IMDb and inject it to the 111Movies site.
+Dynamically hides the server icon, rather than always showing it.
 
-**Add Page Favicon**
-- Adds a page Favicon.
+#### Hide Cursor
+
+Dynamically hides your cursor, rather than always showing it.
+
+#### Add Page Title
+
+Rip the page title from IMDb and inject it to the 111Movies site.
+
+#### Add Page Favicon
+
+Adds a page Favicon.
 
 ## 🛠 Installation
 
