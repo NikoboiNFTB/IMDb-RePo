@@ -18,8 +18,7 @@ Simple and Fast Redirect Portal, adds quick and easy way to access your favorite
     - You can also simply hit enter after filling S/E!
   - On Episode pages → `https://111movies.com/tv/{IMDb-ID}/S/E`
     - Automatically finds the Series ID, Season and Episode, and constructs the link!
-- Self-contained, dependency-free and portable! Works on any browser*!
->> *Except on CLI browsers like *Lynx*. They don't run JavaScript.
+- Lightweight, dependency-free and portable! Works on most browsers!
 
 ## Installation
 
