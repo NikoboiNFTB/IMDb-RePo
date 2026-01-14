@@ -33,25 +33,25 @@ Simple and Fast Redirect Portal, adds quick and easy way to access your favorite
 
 - ### Tweaks for 111Movies
 
-  #### Remove Player Gradient
+  - #### Remove Player Gradient
 
-  Removes the original sites stupid design choice.
+    Removes the original sites stupid design choice.
 
-  #### Hide Server
+  - #### Hide Server
 
-  Dynamically hides the server icon, rather than always showing it.
+    Dynamically hides the server icon, rather than always showing it.
 
-  #### Hide Cursor
+  - #### Hide Cursor
 
-  Dynamically hides your cursor, rather than always showing it.
+    Dynamically hides your cursor, rather than always showing it.
 
-  #### Add Page Title
+  - #### Add Page Title
 
-  Rip the page title from IMDb and inject it to the 111Movies site.
+    Rip the page title from IMDb and inject it to the 111Movies site.
 
-  #### Add Page Favicon
+  - #### Add Page Favicon
 
-  Adds a page Favicon.
+    Adds a page Favicon.
 
 ## 🛠 Installation
 
