@@ -6,21 +6,18 @@ Simple and Fast Redirect Portal, adds quick and easy way to access your favorite
 
 **IMDb RePo** is a lightweight, dependency-free userscript that adds IMDb-style buttons to movie, TV and Episode pages for instant redirection to external streaming. Simple, fast, and smooth — Sailing the High Seas done right!
 
-## Features
+### Features
 
-- Native IMDb-Style Buttons
+- Native-style buttons.
   - Blends seamlessly with IMDb’s own UI.
-- One-Click Redirects
+- One-Click Redirects.
   - On Movie pages → `https://111movies.com/movie/{IMDb-ID}`
   - On TV Show pages → `https://111movies.com/tv/{IMDb-ID}/S/E`
     - Defaults to **S01E01**
-    - You can prefill **Season** and **Episode** before clicking (or just hit Enter)!
+    - You can prefill **Season** and **Episode** before clicking Go!
+    - You can also simply hit enter after filling S/E!
   - On Episode pages → `https://111movies.com/tv/{IMDb-ID}/S/E`
     - Automatically finds the Series ID, Season and Episode, and constructs the link!
-- Instant Load
-  - Buttons appear as soon as possible.
-- Tiny & Readable
-  - Fully self-contained. No dependencies. Easy to tweak.
 
 ## Installation
 
