@@ -10,16 +10,18 @@ Simple and Fast Redirect Portal, adds quick and easy way to access your favorite
 
 - **Native IMDb-Style Buttons**
 
-  - Blends seamlessly with IMDb’s own UI.
+  Blends seamlessly with IMDb’s own UI.
 
 - **One-Click Redirects**
 
-  - On Movie pages → `https://111movies.com/movie/{IMDb-ID}`
-  - On TV Show pages → `htps://111movies.com/tv/{IMDb-ID}/S/E`
-    - Defaults to **S01E01**
-    - You can prefill **season** and **episode** before clicking (or just hit Enter)!
-  - On Episode pages → `https://111movies.com/tv/{IMDb-ID}/S/E`
-    - Automatically finds the Series ID, Season and Episode, and constructs the link!
+  On Movie pages → `https://111movies.com/movie/{IMDb-ID}`
+
+  On TV Show pages → `htps://111movies.com/tv/{IMDb-ID}/S/E`
+  - Defaults to **S01E01**
+  - You can prefill **season** and **episode** before clicking (or just hit Enter)!
+
+  On Episode pages → `https://111movies.com/tv/{IMDb-ID}/S/E`
+  - Automatically finds the Series ID, Season and Episode, and constructs the link!
 
 - **Instant Load**
 
