@@ -55,22 +55,20 @@ Simple and Fast Redirect Portal, adds quick and easy way to access your favorite
 
 ## 🛠 Installation
 
-1. **Install a Userscript Manager**  
+1. ### Install a Userscript Manager
+
    Recommended: Firefox + Violentmonkey  
    - [Violentmonkey (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)  
    - [Tampermonkey (Chromium)](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)  
    >> *Firefox + Violentmonkey are recommended because they are both Free and Open-Source. However, neither is available on Chromium. On Chromium, the proprietary Tampermonkey extension is recommended.*
 
-2. **Install the Script** (choose one way, listed easiest to hardest)  
+2. ### Install the Script (choose one way, listed easiest to hardest)
+
    - Click [here](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/imdb-repo-6.1.user.js) and install when prompted.
-   - Copy-paste all code into a new userscript.  
+   - Copy-paste all code into a new userscript.
    - Or download the `.user.js` file manually and import it.
 
-3. **Alternatively; Automatic Redirect Edition**  
-   For automatic redirect to streaming site: Click [here](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/imdb-autorepo-6.1.user.js)
-     - Not recommended for watching a specific episode of a series, or in general, really.
-
-4. **Done. Enjoy.**
+3. ### Done, enjoy!
 
 >> **Chromium Users:**  
 >> Make sure Tampermonkey can actually *run* userscripts:  
