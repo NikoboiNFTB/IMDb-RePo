@@ -12,7 +12,7 @@ Simple and Fast Redirect Portal, adds quick and easy way to access your favorite
 
 Blends seamlessly with IMDb’s own UI.
 
-### One-Click Redirects
+- ### One-Click Redirects
 
 On Movie pages → `https://111movies.com/movie/{IMDb-ID}`
 
