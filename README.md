@@ -63,9 +63,9 @@ Simple and Fast Redirect Portal, adds quick and easy way to access your favorite
 - [Violentmonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
 - [Tampermonkey for Chromium](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 
-### 2. Install the Script
+### 2. Install the Script  
 
-  choose one way, listed easiest to hardest:
+    choose one way, listed easiest to hardest:
   - Click [here](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/imdb-repo-6.1.user.js) and install when prompted.
   - Copy-paste all code into a new userscript.
   - Or download the [`.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/imdb-repo-6.1.user.js) file manually and import it (why would you do this?).
