@@ -1,4 +1,4 @@
-# 🎬 IMDb RePo: Simple & Fast Redirect Portal
+# IMDb RePo: Simple & Fast Redirect Portal
 
 Simple and Fast Redirect Portal, adds quick and easy way to access your favorite movies and TV-shows directly from the IMDb website.
 
