@@ -1,4 +1,4 @@
-# IMDb RePo: Simple & Fast Redirect Portal
+# 🎬 IMDb RePo: Simple & Fast Redirect Portal
 
 Simple and Fast Redirect Portal, adds quick and easy way to access your favorite movies and TV-shows directly from the IMDb website.
 
@@ -6,13 +6,13 @@ Simple and Fast Redirect Portal, adds quick and easy way to access your favorite
 
 **IMDb RePo** is a lightweight, dependency-free userscript that adds IMDb-style buttons to movie, TV and Episode pages for instant redirection to external streaming. Simple, fast, and smooth — Sailing the High Seas done right!
 
-## 🚀 Features
+## Features
 
-🟡 **Native IMDb-Style Buttons**
+**Native IMDb-Style Buttons**
 
 Blends seamlessly with IMDb’s own UI.
 
-🎬 **One-Click Redirects**
+**One-Click Redirects**
 
 - On Movie pages → `https://111movies.com/movie/{IMDb-ID}`
 - On TV Show pages → `htps://111movies.com/tv/{IMDb-ID}/S/E`
@@ -25,11 +25,11 @@ Blends seamlessly with IMDb’s own UI.
 
 Buttons appear as soon as possible.
 
-🧩 **Tiny & Readable**
+**Tiny & Readable**
 
 Fully self-contained. No dependencies. Easy to tweak.
 
-🔧 **Multiple Tweaks for 111Movies**
+**Multiple Tweaks for 111Movies**
 - **Remove Player Gradient**
   - Removes the original sites stupid design choice.
 - **Hide Server**
@@ -68,6 +68,16 @@ Fully self-contained. No dependencies. Easy to tweak.
 >> - Re-open the IMDb tab. Reloading wasn't enough in my testing.
 >>   - Yes, this is a bit annoying, and yes, it's Chromium's fault, and no, I can't fix this.
 
+## How to Use
+
+1. Open any **IMDb movie**, **TV Show** or **Episode** page.  
+2. A new button appears next to *IMDb Rating*, *Your Rating*, and *Popularity*;  
+   - **Watch** → Hit **Go** to redirect to **111Movies**  
+3. For TV shows, optionally enter:  
+   - **Season (S)**  
+   - **Episode (E)**  
+   - Defaults to `1/1` if blank  
+
 ## **Recommended 111Movies Tweaks**  
 
    - [`Remove Player Gradient`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-gradient-1.0.user.js)  
@@ -87,31 +97,19 @@ Fully self-contained. No dependencies. Easy to tweak.
    - [`Add Page Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/111movies-favicon-1.2.user.js)  
      Fetches the 111Movies logo from [`https://111movies.com/assets/img/logo.png`](https://111movies.com/assets/img/logo.png)
 
-## 💡 How to Use
+## Contributing
 
-1. Open any **IMDb movie**, **TV Show** or **Episode** page.  
-2. A new button appears next to *IMDb Rating*, *Your Rating*, and *Popularity*;  
-   - **Watch** → Hit **Go** to redirect to **111Movies**  
-3. For TV shows, optionally enter:  
-   - **Season (S)**  
-   - **Episode (E)**  
-   - Defaults to `1/1` if blank  
+Feel free to fork this repository and submit issues or pull requests if you have any suggestions or improvements. If you encounter any bugs or have feature requests, please open an issue.
 
-## ⚠️ Limitations
+## Credits
 
-- Doesn’t check if the content actually exists
-  - Though it usually does, new releases are usually available within a day or two.  
-- Redirect domain is hardcoded to `111movies.com` (feel free to fork and change it).
+Created by **[Nikoboi](https://github.com/NikoboiNFTB/)**  
+Script logic fine-tuned with **ChatGPT**  
+Styling inspired by IMDb’s native interface
 
-## 🤝 Credits
+## License
 
-- Created by **Nikoboi**  
-- Script logic fine-tuned with **ChatGPT**  
-- Styling inspired by IMDb’s native interface  
-
-## 📜 License
-
-Released under the **GPLv3 License**
+This project is licenced under the GNU General Public License V3. See [LICENSE](LICENSE) for details.
 
 ## ⚖️ Legal Disclaimer
 
