@@ -8,7 +8,7 @@ Simple and Fast Redirect Portal, adds quick and easy way to access your favorite
 
 ## Features
 
-- ### Native IMDb-Style Buttons
+### - Native IMDb-Style Buttons
 
 Blends seamlessly with IMDb’s own UI.
 
