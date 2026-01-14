@@ -10,7 +10,7 @@ Simple and Fast Redirect Portal, adds quick and easy way to access your favorite
 
 - **Native IMDb-Style Buttons**
 
-Blends seamlessly with IMDb’s own UI.
+  Blends seamlessly with IMDb’s own UI.
 
 - **One-Click Redirects**
 
