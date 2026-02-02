@@ -20,36 +20,58 @@
         return match ? match[1] : null;
     }
 
-    function createNativeButtonGroup(labelText) {
-        const groupContainer = document.createElement('div');
-        groupContainer.className = 'sc-9d3bc82f-0 ipxRZe rating-bar__base-button';
+    function insertBeforeWatchlist(node) {
+        const watchlistWrapper =
+            document.querySelector('[data-testid="tm-box-wl-button"]')
+                ?.closest('.ipc-split-button');
 
-        const label = document.createElement('div');
-        label.className = 'sc-9d3bc82f-1 lhxLQH';
-        label.textContent = labelText;
-        groupContainer.appendChild(label);
-
-        const container = document.createElement('div');
-        container.style.display = 'flex';
-        container.style.alignItems = 'center';
-        container.style.gap = '6px';
-        groupContainer.appendChild(container);
-
-        return { groupContainer, container };
+        if (watchlistWrapper?.parentElement) {
+            watchlistWrapper.parentElement.insertBefore(node, watchlistWrapper);
+        }
     }
 
-    function createGoButton(color = '#28a745') {
-        const btn = document.createElement('a');
-        btn.className = 'ipc-btn ipc-btn--single-padding ipc-btn--center-align-content ipc-btn--default-height ipc-btn--core-baseAlt ipc-btn--theme-baseAlt ipc-btn--button-radius ipc-btn--on-textPrimary ipc-text-button';
-        btn.href = '#';
-        btn.style.backgroundColor = color;
-        btn.style.color = '#fff';
-        btn.style.fontWeight = 'bold';
-        btn.style.userSelect = 'none';
-        const span = document.createElement('span');
-        span.className = 'ipc-btn__text';
-        span.textContent = 'Go';
-        btn.appendChild(span);
+    function createWatchButton(label = 'Watch') {
+        const btn = document.createElement('button');
+
+        btn.className = [
+            'ipc-btn',
+            'ipc-btn--full-width',
+            'ipc-btn--left-align-content',
+            'ipc-btn--large-height',
+            'ipc-btn--core-accent1',
+            'ipc-btn--theme-accent1',
+            'ipc-btn--button-radius',
+            'ipc-primary-button'
+        ].join(' ');
+
+        btn.type = 'button';
+        btn.setAttribute('aria-disabled', 'false');
+        btn.dataset.imdbRepo = 'true';
+
+        // Force green background, white text, and margin-bottom
+        btn.style.cssText = `
+        background-color: #28a745;
+        color: #fff;
+        margin-bottom: 8px;
+    `;
+
+        const icon = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        icon.setAttribute('viewBox', '0 0 24 24');
+        icon.setAttribute('width', '24');
+        icon.setAttribute('height', '24');
+        icon.classList.add(
+            'ipc-icon',
+            'ipc-icon--play',
+            'ipc-btn__icon',
+            'ipc-btn__icon--pre'
+        );
+        icon.innerHTML = `<path d="M8 5v14l11-7z"></path>`;
+
+        const text = document.createElement('span');
+        text.className = 'ipc-btn__text';
+        text.textContent = label;
+
+        btn.append(icon, text);
         return btn;
     }
 
@@ -57,74 +79,79 @@
         const imdbID = getIMDbID();
         if (!target || !imdbID) return false;
 
-        const group = createNativeButtonGroup('WATCH');
-        const goBtn = createGoButton('#28a745');
+        const btn = createWatchButton('Watch');
 
         if (type === 'TV') {
-            const s = document.createElement('input'), e = document.createElement('input');
+            const s = document.createElement('input');
+            const e = document.createElement('input');
+
             [s, e].forEach((inp, i) => {
                 inp.type = 'number';
                 inp.min = '1';
                 inp.placeholder = i ? 'E' : 'S';
                 inp.style.cssText = `
-                    width:28px;height:28px;border-radius:4px;border:1px solid #ccc;
-                    text-align:center;font-size:14px;background:#222;color:#fff;
-                    -moz-appearance:textfield !important;appearance:textfield !important;
-                `;
+            width:28px;height:28px;border-radius:4px;border:1px solid #ccc;
+            text-align:center;font-size:14px;background:#222;color:#fff;
+            appearance:textfield;
+        `;
             });
-            const open = evt => {
-                evt && evt.preventDefault();
-                const season = s.value > 0 ? s.value : '1';
-                const episode = e.value > 0 ? e.value : '1';
-                window.open(`https://111movies.com/tv/${imdbID}/${season}/${episode}`, '_blank'); // This likely will get flagged as suspicious by any program you use for two reasons - once because it tries to open a new window and again because of the site it leads to. Opening a new tab is the core functionality of the script, so it's expected. The website 111movies.com is a minimal streaming site, used by hundreds of other sites (it's a content aggregator). The script will tell the site what id to input, and it may be able to tell what site you came from. These privacy concerns are negligible. Simply entering youtube.com is a way bigger privacy concern than anything this script welcomes.
+
+            btn.onclick = e => {
+                e.preventDefault();
+                window.open(
+                    `https://111movies.com/tv/${seriesID}/${season}/${episode}`,
+                    '_blank'
+                );
             };
-            goBtn.onclick = open;
-            [s, e].forEach(i => i.addEventListener('keydown', ev => ev.key === 'Enter' && open()));
-            group.container.append(goBtn, s, e);
+
+            // Wrap button + inputs so layout stays sane
+            const wrap = document.createElement('div');
+            wrap.style.display = 'flex';
+            wrap.style.gap = '6px';
+            wrap.append(btn, s, e);
+
+            insertBeforeWatchlist(btn);
+            return true;
         }
 
+
         else if (type === 'Episode') {
-            // extract series ID from link
             const seriesLink = document.querySelector('[data-testid="hero-title-block__series-link"]');
-            const seriesID = seriesLink?.getAttribute('href')?.match(/tt\d+/)?.[0];
-            // extract season & episode number
-            const seText = document.querySelector('[data-testid="hero-subnav-bar-season-episode-numbers-section"]')?.textContent || '';
+            const seriesID = seriesLink?.href.match(/tt\d+/)?.[0];
+
+            const seText = document
+                .querySelector('[data-testid="hero-subnav-bar-season-episode-numbers-section"]')
+                ?.textContent || '';
+
             const season = seText.match(/S(\d+)/)?.[1] || '1';
             const episode = seText.match(/E(\d+)/)?.[1] || '1';
-            if (!seriesID) {
-                log('⚠️ Could not find parent series ID.');
-                return false;
-            }
-            goBtn.onclick = e => {
+
+            if (!seriesID) return false;
+
+            btn.onclick = e => {
                 e.preventDefault();
-                window.open(`https://111movies.com/tv/${seriesID}/${season}/${episode}`, '_blank'); // This likely will get flagged as suspicious by any program you use for two reasons - once because it tries to open a new window and again because of the site it leads to. Opening a new tab is the core functionality of the script, so it's expected. The website 111movies.com is a minimal streaming site, used by hundreds of other sites (it's a content aggregator). The script will tell the site what id to input, and it may be able to tell what site you came from. These privacy concerns are negligible. Simply entering youtube.com is a way bigger privacy concern than anything this script welcomes.
+                window.open(`https://111movies.com/tv/${seriesID}/${season}/${episode}`, '_blank');
             };
-            group.container.appendChild(goBtn);
         }
 
         else {
-            // Movie
-            goBtn.onclick = e => {
+            btn.onclick = e => {
                 e.preventDefault();
-                window.open(`https://111movies.com/movie/${imdbID}`, '_blank'); // This likely will get flagged as suspicious by any program you use for two reasons - once because it tries to open a new window and again because of the site it leads to. Opening a new tab is the core functionality of the script, so it's expected. The website 111movies.com is a minimal streaming site, used by hundreds of other sites (it's a content aggregator). The script will tell the site what id to input, and it may be able to tell what site you came from. These privacy concerns are negligible. Simply entering youtube.com is a way bigger privacy concern than anything this script welcomes.
+                window.open(
+                    `https://111movies.com/movie/${imdbID}`,
+                    '_blank'
+                );
             };
-            group.container.appendChild(goBtn);
         }
+
 
         // Insert directly before the Watchlist split button
         const watchlistWrapper =
-            document.querySelector('[data-testid="tm-box-wl-button"]')?.closest('.ipc-split-button');
-
-        group.groupContainer.dataset.imdbRepo = 'true';
+            document.querySelector('[data-testid="tm-box-wl-button"]')
+                ?.closest('.ipc-split-button');
 
         if (watchlistWrapper && watchlistWrapper.parentElement) {
-            watchlistWrapper.parentElement.insertBefore(
-                group.groupContainer,
-                watchlistWrapper
-            );
-        } else {
-            // Fallback: append to target container
-            target.appendChild(group.groupContainer);
+            watchlistWrapper.parentElement.insertBefore(btn, watchlistWrapper);
         }
 
         log(`✅ Injected ${type} button.`);
