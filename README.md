@@ -82,8 +82,10 @@ Feel free to fork this repository and submit issues or pull requests if you have
 
 ## Credits
 
-Created by **[Nikoboi](https://github.com/NikoboiNFTB/)**  
-Script logic fine-tuned with **ChatGPT**  
+Created by **[Nikoboi](https://github.com/NikoboiNFTB/)**
+
+Script logic fine-tuned with **ChatGPT**
+
 Styling inspired by IMDb’s native interface
 
 ## License
