@@ -36,7 +36,7 @@ Simple and Fast Redirect Portal, adds quick and easy way to access your favorite
   - Copy-paste all code into a new userscript.
   - Or download the [`.user.js`](https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/imdb-repo.user.js) file manually and import it (why would you do this?).
 
-### 3. Firefox users, you're done, enjoy!
+### 3 Firefox users, you're done, enjoy!
 
 ### 4. Chromium users:
 
