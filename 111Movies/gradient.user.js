@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         111Movies - Remove Player Gradient
 // @namespace    https://github.com/NikoboiNFTB/IMDb-RePo
+// @downloadURL  https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/gradient.user.js
 // @version      1.0
 // @description  Remove gradient overlay on 111Movies
 // @author       Nikoboi

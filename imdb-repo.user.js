@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         IMDb RePo: Simple and Fast Redirect Portal
 // @namespace    https://github.com/NikoboiNFTB/IMDb-RePo
+// @downloadURL  https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/imdb-repo.user.js
 // @version      7.2
 // @description  Injects an elegant button into IMDb Title pages that redirect you directly to an external streaming service.
 // @author       Nikoboi

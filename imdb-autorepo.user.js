@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         IMDb RePo: Automatic Redirect Edition
 // @namespace    https://github.com/NikoboiNFTB/IMDb-RePo
+// @downloadURL  https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/imdb-autorepo.user.js
 // @version      6.1
 // @description  Automatically redirects IMDb pages to 111movies, with support for Movies, TV, and Episode pages. We highly recommend using the standard edition over this.
 // @author       Nikoboi

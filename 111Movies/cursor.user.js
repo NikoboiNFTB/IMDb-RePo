@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         111Movies - Hide Cursor
 // @namespace    https://github.com/NikoboiNFTB/IMDb-RePo
+// @downloadURL  https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/cursor.user.js
 // @version      1.2
 // @description  Hides cursor when not near UI controls. Slightly more intelligent with timing. Brute force, but works.
 // @author       Nikoboi

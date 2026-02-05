@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         111Movies - Add Page Favicon
 // @namespace    https://github.com/NikoboiNFTB/IMDb-RePo
+// @downloadURL  https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/favicon.user.js
 // @version      1.2
 // @description  Injects a favicon into the site because they forgot to include one.
 // @author       Nikoboi

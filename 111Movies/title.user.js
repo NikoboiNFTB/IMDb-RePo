@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         111Movies - Add Page Title (IMDb + TMDB)
 // @namespace    https://github.com/NikoboiNFTB/IMDb-RePo
+// @downloadURL  https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/title.user.js
 // @version      1.2
 // @description  Auto-set page title from IMDb or TMDB with unified suffix
 // @author       Nikoboi
