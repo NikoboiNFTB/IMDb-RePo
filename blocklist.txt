@@ -1,7 +1,10 @@
 
 ! --- IMDb Filters by Nikoboi ---
 
+! "STREAMING"/"RENT/BUY"
 imdb.com##div.sc-dcb1530e-3.hgRMPJ div:has(> div[data-testid="tm-box-woc-text"])
+
+! "Set your preferred services"
 imdb.com##a[data-testid="wb-setYourPreferredServicesButton"]
 
 ! --- IMDb Filters by Nikoboi ---
