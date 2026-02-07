@@ -2,8 +2,8 @@
 // @name         IMDb RePo: Simple and Fast Redirect Portal
 // @namespace    https://github.com/NikoboiNFTB/IMDb-RePo
 // @downloadURL  https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/imdb-repo.user.js
-// @version      8.1
-// @description  Adds Watch (111movies) and Download (VidSrc) buttons to IMDb movie, TV, season, and Episode pages.
+// @version      8.0
+// @description  Adds Watch (111movies) and Download (VidSrc) buttons to IMDb movie, TV, season, and episode pages.
 // @author       Nikoboi
 // @match        *://*.imdb.com/title/*
 // @grant        none
@@ -134,6 +134,8 @@
       );
     }
 
+
+
     if (type === 'episode') {
       watch.onclick = () =>
         window.open(`https://111movies.com/tv/${data.series}/${data.season}/${data.episode}`, '_blank');
@@ -151,61 +153,54 @@
     const series = getIMDbID();
     if (!series) return;
 
-    const season = parseInt(new URLSearchParams(location.search).get('season') || '1', 10);
+    const season =
+      parseInt(new URLSearchParams(location.search).get('season') || '1', 10);
 
-    document.querySelectorAll('.episode-item-wrapper').forEach(card => {
-      if (card.querySelector('[data-imdb-repo]')) return; // skip if already injected
+    document.querySelectorAll('.episode-item-wrapper, .list_item').forEach(card => {
+      if (card.querySelector('[data-imdb-repo]')) return;
 
-      const titleText = card.querySelector('.ipc-title__text')?.textContent;
-      if (!titleText) return;
-
-      const epMatch = titleText.match(/S\d+\.E(\d+)/i);
-      if (!epMatch) return;
-      const ep = epMatch[1];
+      const ep =
+        card.textContent.match(/Episode\s+(\d+)/i)?.[1];
+      if (!ep) return;
 
       card.style.position ||= 'relative';
 
-      const container = document.createElement('div');
-      container.dataset.imdbRepo = 'true';
-      container.style.cssText = `
-      position:absolute;
-      right:8px;
-      bottom:8px;
-      display:flex;
-      gap:6px;
-    `;
+      const wrap = document.createElement('div');
+      wrap.dataset.imdbRepo = 'true';
+      wrap.style.cssText = `
+        position:absolute;
+        right:8px;
+        bottom:8px;
+        display:flex;
+        gap:6px;
+      `;
 
-      // Functional button creation
-      const watchBtn = document.createElement('a');
-      watchBtn.href = `https://111movies.com/tv/${series}/${season}/${ep}`;
-      watchBtn.target = '_blank';
-      watchBtn.className = 'ipc-btn ipc-btn--watch';
-      watchBtn.textContent = 'Watch';
-      watchBtn.style.cssText = `
-      padding:6px 12px;
-      font-weight:bold;
-      color:#fff;
-      background:#28a745;
-      border-radius:4px;
-      text-decoration:none;
-    `;
+      const w = document.createElement('a');
+      w.innerHTML = ICONS.play + ' Watch';
+      w.href = `https://111movies.com/tv/${series}/${season}/${ep}`;
+      w.target = '_blank';
 
-      const downloadBtn = document.createElement('a');
-      downloadBtn.href = `https://dl.vidsrc.vip/tv/${series}/${season}/${ep}`;
-      downloadBtn.target = '_blank';
-      downloadBtn.className = 'ipc-btn ipc-btn--download';
-      downloadBtn.textContent = 'Download';
-      downloadBtn.style.cssText = `
-      padding:6px 12px;
-      font-weight:bold;
-      color:#fff;
-      background:#125784;
-      border-radius:4px;
-      text-decoration:none;
-    `;
+      const d = document.createElement('a');
+      d.innerHTML = ICONS.download + ' Download';
+      d.href = `https://dl.vidsrc.vip/tv/${series}/${season}/${ep}`;
+      d.target = '_blank';
 
-      container.append(watchBtn, downloadBtn);
-      card.appendChild(container);
+      [w, d].forEach(b => {
+        b.style.cssText = `
+          display:flex;
+          align-items:center;
+          gap:4px;
+          background:${b === w ? '#28a745' : '#125784'};
+          color:#fff;
+          padding:4px 8px;
+          border-radius:4px;
+          font-weight:bold;
+          text-decoration:none;
+        `;
+      });
+
+      wrap.append(w, d);
+      card.appendChild(wrap);
     });
   }
 
