@@ -3,4 +3,7 @@
 imdb.com##div.sc-dcb1530e-3.hgRMPJ div:has(> div[data-testid="tm-box-woc-text"])
 ! "Set your preferred services"
 imdb.com##a[data-testid="wb-setYourPreferredServicesButton"]
+! Reviews and stuff in a stupid location
+imdb.com##.sc-41359969-0
+imdb.com##.fgZOYT
 ! --- IMDb Filters by Nikoboi --- !
