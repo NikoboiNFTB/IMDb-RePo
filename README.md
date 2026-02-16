@@ -76,6 +76,28 @@ You will need to enable running scripts in Tampermonkey settings:
 #### [`Add Page Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/favicon.user.js)
 - Fetches the 111Movies logo from [`https://111movies.com/assets/img/logo.png`](https://111movies.com/assets/img/logo.png)
 
+## Blocklist
+
+Blocks native third party streaming options. Here's the source link:
+
+```text
+https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/blocklist.txt
+```
+
+### uBlock Origin add tutorial
+
+1. Select extension in the top-right.
+
+2. Click the three gears to open the settings.
+
+3. Under "Filter lists" at the top, scroll down to the bottom.
+
+4. Select "Import..."
+
+5. Paste the URL linked above.
+
+6. Hit "Apply changes" at the top.
+
 ## Contributing
 
 Feel free to fork this repository and submit issues or pull requests if you have any suggestions or improvements. If you encounter any bugs or have feature requests, please open an issue.

@@ -1,9 +1,28 @@
-! --- IMDb Filters by Nikoboi --- !
+! Title: IMDb Filters by Nikoboi
+! Description: Removes native third party streaming options.
+! Homepage: https://nikoboi.dev/
+! Author: Nikoboi
+! License: GNU General Public License v3.0 | https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/LICENSE
+! Source: https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/blocklist.txt
+! Issues: https://github.com/NikoboiNFTB/IMDb-RePo/issues
+! Pull Requests: https://github.com/NikoboiNFTB/IMDb-RePo/pulls
+! Last updated: 2026-02-16 11:50 UTC+02:00
+! Expires: 7 days
+
+! ========================================
+! Start of Filters
+! ========================================
+
 ! "STREAMING"/"RENT/BUY"
 imdb.com##div.sc-dcb1530e-3.hgRMPJ div:has(> div[data-testid="tm-box-woc-text"])
+
 ! "Set your preferred services"
 imdb.com##a[data-testid="wb-setYourPreferredServicesButton"]
-! Reviews and stuff in a stupid location
+
+! Reviews and stuff in a stupid location (Under the buttons)
 imdb.com##.sc-41359969-0
 imdb.com##.fgZOYT
-! --- IMDb Filters by Nikoboi --- !
+
+! ========================================
+! End of Filters
+! ========================================
