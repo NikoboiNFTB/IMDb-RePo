@@ -3,10 +3,10 @@
 ! Homepage: https://nikoboi.dev/
 ! Author: Nikoboi
 ! License: GNU General Public License v3.0 | https://github.com/NikoboiNFTB/IMDb-RePo/blob/main/LICENSE
-! Source: https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/blocklist.txt
+! Source: https://imdb.nikoboi.dev/blocklist.txt
 ! Issues: https://github.com/NikoboiNFTB/IMDb-RePo/issues
 ! Pull Requests: https://github.com/NikoboiNFTB/IMDb-RePo/pulls
-! Last updated: 2026-02-16 12:19 UTC+02:00
+! Last updated: 2026-02-24 21:20 UTC+02:00
 ! Expires: 7 days
 
 ! ========================================
