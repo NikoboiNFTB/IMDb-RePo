@@ -106,7 +106,7 @@ Feel free to fork this repository and submit issues or pull requests if you have
 
 Created by **[Nikoboi](https://github.com/NikoboiNFTB/)**
 
-Script logic fine-tuned with **ChatGPT**
+Script logic fine-tuned using **[ChatGPT](https://chatgpt.com/)**
 
 Styling inspired by IMDb’s native interface
 
