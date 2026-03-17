@@ -81,7 +81,7 @@ You will need to enable running scripts in Tampermonkey settings:
 Blocks native third party streaming options. Here's the source link:
 
 ```text
-https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/blocklist.txt
+https://imdb.nikoboi.dev/blocklist.txt
 ```
 
 ### uBlock Origin add tutorial
