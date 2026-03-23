@@ -50,7 +50,7 @@ You will need to enable running scripts in Tampermonkey settings:
 ## How to Use
 
 1. Open any IMDb **Movie**, **TV Show** or **Episode** page.
-2. A new button appears next to *IMDb Rating*, *Your Rating*, and *Popularity*;
+2. A new button appears next to _IMDb Rating_, _Your Rating_, and _Popularity_;
    - **Watch** → Hit **Go** to redirect to **111Movies**
 3. For TV shows, optionally enter:
    - **Season (S)**
@@ -60,20 +60,25 @@ You will need to enable running scripts in Tampermonkey settings:
 ## **Recommended 111Movies Tweaks**
 
 #### [`Remove Player Gradient`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/gradient.user.js)
+
 - Removes the persistent shadow overlay on the player.
 
 #### [`Hide Server`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/server.user.js)
+
 - Hides the server button along with the rest of the Player UI.
 
 #### [`Hide Cursor`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/cursor.user.js)
+
 - Hides the cursor with the rest of the Player GUI when not hovering over player controls.
 - Brute force, but works. Contributions for a more elegant solution are welcome.
 
 #### [`Add Page Title`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/title.user.js)
+
 - Add a page title based on IMDb ID.
 - For example, the title `South Park (TV Series 1997– ) - IMDb` becomes `South Park (TV Series 1997– ) - 111Movies`.
 
 #### [`Add Page Favicon`](https://github.com/NikoboiNFTB/IMDb-RePo/raw/refs/heads/main/111Movies/favicon.user.js)
+
 - Fetches the 111Movies logo from [`https://111movies.com/assets/img/logo.png`](https://111movies.com/assets/img/logo.png)
 
 ## Blocklist
